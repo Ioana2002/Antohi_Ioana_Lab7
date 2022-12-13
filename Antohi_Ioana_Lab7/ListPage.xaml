@@ -22,6 +22,7 @@
                 <Button Grid.Column="1"
                 Text="Delete"
                 Clicked="OnDeleteButtonClicked"/>
+                <Button Text="Delete item" MaximumWidthRequest="300" Clicked="OnDeleteItemButtonClicked"/>
             </Grid>
 
             <ListView x:Name="listView"
